@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class BadgeWidget2 extends Container {
   BadgeWidget2({required this.badgeText})
       : super(
-    height: 66,
+    height: 28,
     width: double.infinity,
     decoration: BoxDecoration(
       borderRadius: BorderRadius.circular(50),
@@ -12,7 +12,7 @@ class BadgeWidget2 extends Container {
     alignment: Alignment.center,
     child: Text(
       badgeText,
-      style: TextStyle(fontSize: 40, color: Color(0xffffffff)),
+      style: TextStyle(fontSize: 15, color: Color(0xffffffff)),
     ),
   );
 

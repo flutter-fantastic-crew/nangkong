@@ -41,7 +41,7 @@ class SummaryBottomSheetWidget {
           SizedBox(height: 10),
           ListTile(
             leading: Icon(Icons.calendar_today),
-            title: Text('일정 요약'),
+            title: Text('총 소비'),
             onTap: () {
               // 일정 요약 로직을 추가할 수 있습니다.
               Navigator.pop(context);
@@ -49,7 +49,7 @@ class SummaryBottomSheetWidget {
           ),
           ListTile(
             leading: Icon(Icons.pie_chart),
-            title: Text('통계 요약'),
+            title: Text('총 수입'),
             onTap: () {
               // 통계 요약 로직을 추가할 수 있습니다.
               Navigator.pop(context);

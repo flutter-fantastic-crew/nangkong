@@ -12,7 +12,7 @@ class TotalAmountWidget extends StatelessWidget {
       child: Column(
         children: [
           Text(
-            '총 소23비',
+            '총 소비',
             style: TextStyle(
               fontSize: 15.0,
               fontWeight: FontWeight.bold,
